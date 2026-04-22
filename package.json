@@ -1,0 +1,20 @@
+{
+    "name": "nex-manager",
+    "version": "1.0.0",
+    "description": "Bot de discord para gestionar el servidor de Nex Store",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "author": "Nex Store",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^14.0.0",
+        "dotenv": "^10.0.0",
+        "mongoose": "^6.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.0"
+    }
+}
